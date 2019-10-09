@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>login form/Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+  </head>
+  <body>
+    <div class="Login">
+      <div id="part1login">
+        <div id="lock">
+          <i class="fas fa-lock fa-3x"></i>
+        </div>
+        <h1>Login as</h1>
+        <h3>See whats going on in your college today</h3>
+      </div>
+      <div id="part2login">
+        <form  method="post">
+          <h4><span><i class="fas fa-user"></i></span> Login as</h4>
+          <label for="Student"></label>
+          <select id="Student" name="Student">
+            <option value="Student">Student</option>
+            <option value="Professor">Professor</option>
+            <option value="Admin">Admin</option>
+          </select>
+          <br>
+          <h4><span><i class="fas fa-user"></i></span> USN</h4>
+          <label for="USN"></label>
+          <input type="text" name="USN" >
+          <br>
+          <h4><span><i class="fas fa-eye"></i></span> Password</h4>
+          <input type="password" name="password" >
+          <br>
+          <br>
+          <button class="Loginbutton"><i class="fas fa-lock"></i> Login</button>
+          <h5 id="forgot">Forgot <span>Password?</span></h5>
+         </form>
+        </div>
+      </div>
+
+
+      <div class="Signup">
+        <div class="part1Signup">
+          <div id="pencil">
+            <i class="fas fa-pencil-alt fa-3x"></i>
+          </div>
+          <h1>Signup as</h1>
+          <h3>Be part of your College Community</h3>
+        </div>
+        <div class="part2Signup">
+          <form  method="post">
+            <h4><span><i class="fas fa-user"></i></span>  Signup as</h4>
+            <label for="Student"></label>
+            <select id="Student" name="Student">
+              <option value="Student">Student</option>
+              <option value="Professor">Professor</option>
+              <option value="Admin">Admin</option>
+            </select>
+            <h4><span><i class="fas fa-user"></i></span>  USN</h4>
+            <label for="USN"></label>
+            <input type="text" name="USN" >
+            <br>
+            <h4><span><i class="fas fa-eye"></i></span>  Password</h4>
+            <input type="password" name="password" >
+            <h4><span><i class="fas fa-eye"></i></span>  Confirm Password</h4>
+            <input type="password" name="Confirm" >
+            <br>
+            <br>
+            <button class="Signupbutton"><i class="fas fa-pencil-alt"></i> Signup</button>
+          </form>
+        </div>
+      </div>
+  </body>
+</html>
